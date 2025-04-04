@@ -1,5 +1,17 @@
 1- git status permet d'obtenir le nombre de commit, le fichier non suivis. Donc ça regroupe le status/information sur le git.
 2- La différence c'est que cette fois ci, il m'indique que le fichier reponses.txt que je viens de add est une modification qui seront validées (s'affiche en vert), comparé au fichier README.md qui lui est un fichier non suivis (s'affiche en rouge)
 3- Après le git add, les fichiers, sont parti dans le staging area
-4-
-5- git log
+5- git log pour consulter la liste de commits
+6- git diff et git diff --staged est que l'affichage du premier est moins explicite, que le deuxième 
+7- git show : spécifique sur le commit, git status : stats sur le git/ Fichier présent dans le git et leur état, git diff : entre 2 commit, git log : information sur tout les commit
+8- 
+Sur la branche develop
+Modifications qui seront validées :
+  (utilisez "git restore --staged <fichier>..." pour désindexer)
+	modifié :         README.md
+	nouveau fichier : brouillon.txt
+	nouveau fichier : fichier1.txt
+
+9- git reset : fait passer le nouveau fichier en fichier non suivis ( afficher en rouge ) 
+10- git status 
+11- 
