@@ -14,4 +14,9 @@ Modifications qui seront validées :
 
 9- git reset : fait passer le nouveau fichier en fichier non suivis ( afficher en rouge ) 
 10- git status 
-11- 
+11- git status et git show
+12- git log origin/develop
+13- git clone https://github.com/PaulineLam24/TP-Git.git
+14- ls 
+15- git diff
+
