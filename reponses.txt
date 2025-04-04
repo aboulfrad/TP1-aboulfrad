@@ -1,0 +1,5 @@
+1- git status permet d'obtenir le nombre de commit, le fichier non suivis. Donc ça regroupe le status/information sur le git.
+2- La différence c'est que cette fois ci, il m'indique que le fichier reponses.txt que je viens de add est une modification qui seront validées (s'affiche en vert), comparé au fichier README.md qui lui est un fichier non suivis (s'affiche en rouge)
+3- Après le git add, les fichiers, sont parti dans le staging area
+4-
+5- git log
